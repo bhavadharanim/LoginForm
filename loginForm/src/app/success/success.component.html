@@ -1,0 +1,19 @@
+
+<div class="box">
+    <h1 >Login Success</h1>
+    <div class="name"><h2>Hello , {{person.NAME}}</h2></div> 
+    <div class="describe">
+        Your username and password,
+    </div>
+    <div class="flex">
+        <div class="user">
+            <p>USERNAME:{{person.NAME}}</p>
+          </div>
+          <div class="password">
+            <p>PASSWORD:{{person.PASSWORD}}</p>
+          </div>
+    </div> 
+    {{" 'parent name':   "+parentData.name+"  'Parent pwd':   "+parentData.pwd}}
+    <button (click)="Event()">Click</button>
+</div>
+

@@ -1,0 +1,34 @@
+<div class="title">
+  <h1>LOGIN FORM </h1>
+</div>
+<div class="loginform">
+  <div>
+    <p>NAME:</p>
+  </div>
+  <div>
+    <input class="marginType" type="text" [(ngModel)]="details.name">
+  </div>
+  <div>
+    <p>
+      PASSWORD:
+    </p>
+  </div>
+  <div>
+    <input class="marginType" type="password" [(ngModel)]="details.password">
+  </div>
+  <div class="loginbutton">
+    <button (click)="login()" routerLineActive="active" routerLink="success">Login </button>
+  </div>
+  <div class="info">
+    {{info}}
+    <div>
+      {{nm}}
+    </div>
+    <div>
+      {{pwd}}
+    </div>
+  </div>
+
+</div>
+<app-success (childData)="info=$event" (childName)="name($event)" (childPassword)="pass($event)"
+  [parentData]="information"></app-success>

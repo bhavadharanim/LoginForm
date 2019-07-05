@@ -1,0 +1,59 @@
+.title{
+    margin-top: 10%;
+    text-align: center;
+    color: cadetblue;
+}
+.loginform{
+    background-color: whitesmoke;
+    padding: 5rem;
+    margin-left: 35%;
+    margin-top: 0;
+    margin-right: 30%
+}
+.loginbutton{
+    margin-top: 2rem;
+    margin-left: 3rem;
+    
+}
+button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: white;
+}
+button:hover{
+    background-color: whitesmoke;
+}
+.marginType{
+    padding: 0.3rem;
+    padding-right: 2rem;
+}
+*{
+    outline: none;
+}
+.absoluteFunction{
+   /* display: none;*/
+    position: absolute;
+   /* top: 40%;*/
+    left: 30%;
+    font-size: 1rem;
+    padding: 1rem;
+
+}
+.success{
+    text-align: center;
+    color: red;
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.info{
+    font-size: 1rem;
+    padding:0rem 0rem 0rem 0.3rem;
+    padding-right: 0rem;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+
+}
